@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Юрий Бобряшов](https://up.htmlacademy.ru/htmlcss/14/user/212155).
-* Наставник: `Антон Попов`.
+* Наставник: [Антон Попов](https://htmlacademy.ru/profile/joker).
 
 ---
 
