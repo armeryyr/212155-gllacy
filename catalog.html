@@ -73,7 +73,23 @@
             <option>сначала недорогие</option>
             <option>сначала дорогие</option>
             <option>по жирности</option>
-            </select>
+          </select>
         </div>
+        <div class="rang">
+          <label for="rang-price">Цена: 100руб. - 500 руб.</label>
+          <input type="range" id="rang-price" name="rang-price" min="100" max="500" step="10">
+        </div>
+        <div class="fat">
+          <p>Жирность:</p>
+          <input type="radio" name="fat" id="fat-0">
+          <label for="fat-0">0%</label>
+          <input type="radio" name="fat" id="fat-10" checked>
+          <label for="fat-10">до 10%</label>
+          <input type="radio" name="fat" id="fat-more-30">
+          <label for="fat-30">до 30%</label>
+          <input type="radio" name="fat" id="fat-more-30">
+          <label for="fat-more-30">Выше 30%</label>
+        </div>
+        
     </main>
   </body>
