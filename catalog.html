@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Глейси</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <a href="index.html">
+          <img src="img/logo.png" width="154" height="64" alt="Gllacyshop">
+        </a>
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a>Каталог</a>
+              <ul>
+                <li>
+                  <a>Сливочное</a>
+                </li>
+                <li>Щербеты</li>
+                <li>Фруктовый лед</li>
+                <li>Мелорин</li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">Доставка и оплата</a>
+            </li>
+            <li>
+              <a href="#">О компании</a>
+            </li>
+          </ul>
+        </nav>
+        <form class="search">
+          <input type="text" name="search" value="" placeholder="Что ищем?">
+        </form>
+        <div class="user-block">
+          <form class="login" action="https://echo.htmlacademy.ru" method="post">
+            <a href="#">Вход</a>
+            <input type="email" name="email" value="" placeholder="Электронная почта">
+            <input type="password" name="password" value="" placeholder="Пароль">
+            <button class="button" type="submit">Войти</button>
+            <a href="#">Забыли пароль?</a>
+            <a href="#">Новая регистрация</a>
+          </form>
+        </div>
+        <div class="basket">
+          <a class="basket" href="#">Пусто</a>
+        </div>
+        <p class="schedule">с 10 до 20, ежедневно</p>
+        <p class="telefon">8 812 450-25-25</p>
+      </div>
+    </header>
+    <main class="container">
+      <nav class="breadcrumbs">
+        <ul>
+          <li>
+            <a href="#">Главная</a>
+          </li>
+          <li>
+            <a href="#">Каталог</a>
+          </li>
+          <li>
+            <a>Сливочное</a>
+          </li>
+        </ul>
+        </nav>
+        <h1>Сливочное мороженное</h1>
+        <div class="sort">
+          <p>Сортировка</p>
+          <select name="criterion">
+            <option selected>по популярности</option>
+            <option>сначала недорогие</option>
+            <option>сначала дорогие</option>
+            <option>по жирности</option>
+            </select>
+        </div>
+    </main>
+  </body>
