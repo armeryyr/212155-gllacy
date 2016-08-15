@@ -28,11 +28,11 @@
           </ul>
         </nav>
         <form class="search">
-          <a>Вход</a>
           <input type="text" name="search" value="" placeholder="Что ищем?">
         </form>
         <div class="user-block">
           <form class="login" action="https://echo.htmlacademy.ru" method="post">
+            <a>Вход</a>
             <input type="email" name="email" value="" placeholder="Электронная почта">
             <input type="password" name="password" value="" placeholder="Пароль">
             <button class="button" type="submit">Войти</button>
@@ -49,8 +49,11 @@
     </header>
     <main class="container">
       <div class="background">
+        <h2>Крем-брюле и пломбир с малиновым джемом</h2>
         <img src="img/background-img-1.jpg" width="900" height="24.33" alt="">
+        <h2>Шоколадный пломбир и лимонный сорбет</h2>
         <img src="img/background-img-2.jpg" width="900" height="24.33" alt="">
+        <h2>Пломбир с помадкой и клубничный щербет</h2>
         <img src="img/background-img-3.jpg" width="900" height="24.33" alt="">
       </div>
       <button class="button" type="submit">Давайте оба!</button>
@@ -70,22 +73,22 @@
         <div class="hit-1">
           <img src="img/hit-1.jpg" width="200" height="200" alt="">
           <p>310 р/кг</p>
-          <p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
+          <a>Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
         </div>
         <div class="hit-2">
           <img src="img/hit-2.jpg" width="200" height="200" alt="">
           <p>380 р/кг</p>
-          <p>Сливочно-кофейное с кусочкками шоколада</p>
+          <a>Сливочно-кофейное с кусочкками шоколада</a>
         </div>
         <div class="hit-3">
           <img src="img/hit-3.jpg" width="200" height="200" alt="">
           <p>355 р/кг</p>
-          <p>Сливочно-клубничное с присыпкой из белого шоколада</p>
+          <a>Сливочно-клубничное с присыпкой из белого шоколада</a>
         </div>
         <div class="hit-4">
           <img src="img/hit-1.jpg" width="200" height="200" alt="">
           <p>415 р/кг</p>
-          <p>Сливочное крем-брюле с карамельной подливкой</p>
+          <a>Сливочное крем-брюле с карамельной подливкой</a>
         </div>
       </div>
       <div class="seo">
@@ -111,7 +114,7 @@
         <div class="newsletter-1">
           <img src="img/newsletter-1.jpg" width="410" height="211" alt="">
           <h2>Новое в нашем блоге</h2>
-          <p>10 способов сервировки фруктовых щербетов к столу</p>
+          <a>10 способов сервировки фруктовых щербетов к столу</a>
         </div>
         <div class="newsletter-2">
           <img src="img/newsletter-2.jpg" width="410" height="211" alt="">
@@ -134,10 +137,41 @@
             (с 10 до 20 ежедневно)
           </p>
           <div class="feedback-form">
-            
-        </div>
+           <p>Мы обязательно вам ответим!</p>
+           <form action="https://echo.htmlacademy.ru" method="post">
+             <input type="text" name="name" value="" placeholder="Как вас зовут?">
+             <input type="email" name="email" value="" placeholder="Электронная почта">
+             <textarea name="feedback" id="feedback-field" rows="10">Напишите что-нибудь...</textarea>
+             <button class="button" type="submit">Отправить</button>
+           </form>    
+          </div>
         </div>
       </div>
     </main>
+    <footer class="main-footer">
+      <div class="container">
+        <div class="footer-social">
+          <a class="social-btn social-btn-twit" href="#">Твиттер</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        </div>
+        <div class="production">
+          <img src="img/heart.jpg" width="10" height="10" alt="">
+          <a>Для поставщиков</a>
+          <a>О производстве</a>
+        </div>
+        <div class="docs">
+          <a>Наши документы</a>
+          <a>Экологические стандарты</a>
+        </div>
+        <div class="footer-copyright">
+          <img src="img/logo-academy.jpg" width="108" height="38" alt="">
+          <p>Сделано в
+            <a class="btn" href="https://htmlacademy.ru">HTML Academy</a> © 2016
+          </p>
+        </div>
+      </div>  
+    </footer>
   </body>
 </html>
