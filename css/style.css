@@ -182,7 +182,7 @@ h2 {
   float: left;
   width: 400px;
   height: 230px;
-  margin-bottom: 42px;
+  margin-bottom: 40px;
   margin-top: 41px;
   margin-left: 20px;
   padding-left: 20px;
@@ -194,6 +194,7 @@ h2 {
   width: 400px;
   height: 230px;
   margin-top: 41px;
+  
 }
 
 .newsletter-2 p{
@@ -208,12 +209,22 @@ h2 {
 }
 
 
+.map {
+  float: left;
+  width: 900px;
+  height: 431px;
+}
+
+
 .adress{
-  position: absolute;
-  width: 300px;
-  left: 580px;
+  position: relative;
+  width: 279px;
+  height: 270px;
+  left: 575px;
   background: white;
-  bottom: -1513px;
+  bottom: 368px;
+  padding-top: 33px;
+  padding-left: 27px
 }
 
 
