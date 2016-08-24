@@ -8,19 +8,20 @@ body {
   padding: 0;
 }
 
+
 h1 {
   font-size: 60px;
 }
+
 
 h2 {
   font-size: 35px;
 }
 
+
 .main-header {
   width: 900px;
   min-height: 115px;
-  background: rgba(255, 255, 0, 0.2);
-  margin: 0;
 }
 
 .main-navigation {
@@ -29,27 +30,26 @@ h2 {
   width: 355px;
   margin-left: 196px;
   margin-right: 113px;
-  background: #6dc373;
   padding-bottom: 15px;
   margin-top: 20px;
 }
+
 
 .main-navigation li {
   display: inline-block;
   vertical-align: top;
 }
 
+
 .user-block {
   float: left;
   width: 35px;
   height: 20px;
   margin-right: 10px;
-  background: #6dc373;
   padding: 15px;
   padding-left: 55px;
   margin-top: 20px;
 }
-
 
 
 .basket {
@@ -59,40 +59,40 @@ h2 {
   margin-top: 20px;
   padding: 15px;
   padding-left: 50px;
-  background: #6dc373;
+  
 }
 
 .logo {
   position: absolute;
   top: 15px;
   left: 10px;
+  
 }
 
 .schedule {
-  display: block;
+  float: left;
   width: 172px;
   height: 20px;
-  margin-left: 140px;
+  margin-left: 720px;
+  margin-top: 20px;
 }
+
 
 .telefon {
   float: right;
   width: 130px;
+  margin-top: -10px;
 }
 
 .main-header img {
   position: absolute;
 }
 
+
 .container {
   width: 900px;
 }
 
-.main-footer {
-  float: left;
-  width: 900px;
-  
-}
 
 .background {
   width: 900px;
@@ -100,48 +100,166 @@ h2 {
   margin-top: 250px;
   margin-bottom: 42px;
 }
-.search {
-  display: none;
+
+
+.background-btn{
+  display: block; 
+  width: 281px;
+  height: 44px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 22px;
 }
+
 
 .banner-1 {
   float: left;
-  width: 420px;
+  width: 400px;
+  height: 230px;
   margin-bottom: 42px;
+  margin-top: 41px;
+  margin-left: 20px;
+  padding-left: 20px;
 }
+
+
+.banner-1 a {
+  float: right;
+  width: 166px;
+  height: 33px;
+  margin-right: 22px;
+  padding-top: 13px;
+  margin-top: 16px;
+  text-align: center;
+}
+
 
 .banner-2 {
   float: right;
-  width: 420px;
+  width: 400px;
+  height: 230px;
   margin-bottom: 42px;
+  margin-top: 41px;
+  margin-right: 20px;
+  padding-left: 20px;
 }
+
+
+.banner-2 a {
+  float: right;
+  width: 166px;
+  height: 33px;
+  margin-right: 22px;
+  padding-top: 13px;
+  margin-top: 16px;
+  text-align: center;
+}
+
 
 .item {
   float: left;
   width: 200px;
+  min-height: 283px;
   margin-left: 20px;
   margin-bottom: 40px;
 }
 
-.section {
+
+.about {
   float: left;
   width: 900px;
 }
 
+
 .newsletters {
   float: left;
-  width: 420px;
+  width: 900px;
 }
 
-.map {
-  
+
+.newsletter-1 {
+  float: left;
+  width: 400px;
+  height: 230px;
+  margin-bottom: 42px;
+  margin-top: 41px;
+  margin-left: 20px;
+  padding-left: 20px;
 }
+
+
+.newsletter-2 {
+  float: right;
+  width: 400px;
+  height: 230px;
+  margin-top: 41px;
+}
+
+.newsletter-2 p{
+  display: inline-block;
+  margin: 43px 33px 20px 28px;
+}
+
+
+.newsletter-form {
+  margin-left: 27px;
+  margin-right: 27px;
+}
+
 
 .adress{
+  position: absolute;
   width: 300px;
-  
+  left: 580px;
+  background: white;
+  bottom: -2113px;
 }
 
+
+.main-footer {
+  float: left;
+  width: 900px;
+  min-height: 100px;
+}
+
+
+.footer-social {
+  float: left;
+  width: 200px;
+  margin-top: 36px;
+  margin-right: 20px;
+}
+
+
+.production {
+  float: left;
+  width: 200px;
+  text-align: center;
+  margin-top: 36px;
+}
+
+
+.docs {
+  float: left;
+  width: 164px;
+  margin-top: 36px;
+  margin-right: 20px;
+}
+
+
+.footer-copyright {
+  float: right;
+  width: 200px;
+  margin-top: 36px;
+}
+
+
+
+
+.search {
+  display: none;
+}
 
 .user-block .login {
   display: block;
