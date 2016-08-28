@@ -20,16 +20,15 @@ h2 {
 
 
 .main-header {
-  width: 900px;
   min-height: 115px;
 }
 
 .main-navigation {
   float: left;
   height: 35px;
-  width: 355px;
-  margin-left: 196px;
-  margin-right: 113px;
+  width: 350px;
+  margin-left: 30px;
+  margin-right: 112px;
   padding-bottom: 15px;
   margin-top: 20px;
 }
@@ -43,54 +42,50 @@ h2 {
 
 .user-block {
   float: left;
-  width: 35px;
+  width: 32px;
   height: 20px;
-  margin-right: 10px;
-  padding: 15px;
-  padding-left: 55px;
   margin-top: 20px;
+  margin-right: 10px;
+  padding: 15px 16px 15px 45px;
 }
 
 
 .basket {
-  float: left;
-  width: 40px;
+  float: right;
+  width: 37px;
   height: 20px;
   margin-top: 20px;
-  padding: 15px;
-  padding-left: 50px;
-  
+  margin-right: 20px;
+  padding: 15px 34px 15px 46px;
 }
 
 .logo {
-  position: absolute;
-  top: 15px;
-  left: 10px;
-  
+  float: left;
+  width: 154px;
+  margin-top: 15px;
+  margin-left: 14px;
 }
 
 .schedule {
-  float: left;
+  float: right;
   width: 172px;
-  height: 20px;
-  margin-left: 720px;
-  margin-top: 20px;
+  margin-right: 20px;
 }
 
 
 .telefon {
   float: right;
   width: 130px;
+  clear: both;
+  margin-right: 20px;
   margin-top: -10px;
-}
-
-.main-header img {
-  position: absolute;
-}
+ }
 
 
 .container {
   width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
