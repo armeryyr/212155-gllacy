@@ -6,8 +6,11 @@
     <title>HTML Academy: Глейси</title>
   </head>
   <body>
+    <input type="radio" name="slaider" id="slaider-1" checked>
+    <input type="radio" name="slaider" id="slaider-2">
+    <input type="radio" name="slaider" id="slaider-3">
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <img class="logo" src="img/logo.png" width="154" height="64" alt="Gllacyshop">
         <nav class="main-navigation">
           <ul>
@@ -57,16 +60,9 @@
         <p class="telefon">8 812 450-25-25</p>
       </div>
     </header>
-    <main class="container">
-      <div class="background">
-        <input type="radio" name="slaider" id="slaider-1" checked>
-        <label for="slaider-1"><h2>Крем-брюле и пломбир с малиновым джемом</h2></label>
-          <input type="radio" name="slaider" id="slaider-2">
-          <label for="slaider-2"><h2>Шоколадный пломбир и лимонный сорбет</h2></label>
-          <input type="radio" name="slaider" id="slaider-3">
-          <label for="slaider-3"><h2>Пломбир с помадкой и клубничный щербет</h2></label>
-      </div>
+    <main class="container clearfix">
       <a class="background-btn" href="#">Давайте оба!</a>
+      <div class="banner clearfix">
       <div class="banner banner-1">
         <h2>Малинка даром!</h2>
         <p>При покупке 2 кг любого фруктового мороженного, добавим в ваш заказ банку малинового варенья бесплатно </p>
@@ -77,29 +73,30 @@
         <p>При покупке 2 кг пломбира, добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки абсолютно бесплатно </p>
         <a href="#">Хочу шоколадки!</a>
       </div>
-      <section class="hits">
+        </div>
+      <section class="hits clearfix">
         <div class="hits item">
           <img src="img/item-1.jpg" width="200" height="200" alt="">
-          <strong>310 &#8381;/</strong><p>кг</p>
+          <p><strong>310 &#8381;/</strong>кг</p>
           <a href="#">Сливочное с апельсиновым джемом и цитрусовой стружкой</a>
         </div>
         <div class="hits item">
           <img src="img/item-2.jpg" width="200" height="200" alt="">
-          <strong>380 &#8381;/</strong><p>кг</p>
+          <p><strong>380 &#8381;/</strong>кг</p>
           <a href="#">Сливочно-кофейное с кусочкками шоколада</a>
         </div>
         <div class="hits item">
           <img src="img/item-3.jpg" width="200" height="200" alt="">
-          <strong>355 &#8381;/</strong><p>кг</p>
+          <p><strong>355 &#8381;/</strong>кг</p>
           <a href="#">Сливочно-клубничное с присыпкой из белого шоколада</a>
         </div>
         <div class="hits item">
           <img src="img/item-4.jpg" width="200" height="200" alt="">
-          <strong>415 &#8381;/</strong><p>кг</p>
+          <p><strong>415 &#8381;/</strong>кг</p>
           <a href="#">Сливочное крем-брюле с карамельной подливкой</a>
         </div>
       </section>
-      <section class="about">
+      <section class="about clearfix">
         <h3>Магазин Глэйси - это онлайн и офлайн магазин по продаже мороженного собственного производства на развес</h3>
         <div class="seo seo-1">
           <p>Все наше мороженое изготавливается на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
@@ -114,10 +111,10 @@
           <p>Доставка нашего мороженого до заказчиков осуществляется в специальном термопаке, который не дает мороженому растаять в пути и позволяет сохранить превосходный вкус.</p>
         </div>
       </section>
-      <section class="newsletters">
+      <section class="newsletters clearfix">
         <div class="newsletter newsletter-1">
           <h3>Новое в нашем блоге</h3>
-          <a href="#">10 способов сервировки фруктовых щербетов к столу</a>
+          <a href="#">10 способов сервировки<br>фруктовых щербетов<br>к столу</a>
         </div>
         <div class="newsletter newsletter-2">
           <p>Подпишитесь на нашу сладкую рассылку
@@ -131,11 +128,7 @@
       <div class="map">
         <img src="img/map.jpg" width="900" height="430" alt="Карта">
         <div class="adress">
-          <p>Адрес главного офиса и<br>офлайн магазина:
-            <strong>ул.Большая Конюшенная 19/8, Санкт-Петербург</strong><br>
-            Для заказов по телефону:<br>
-            <strong>8 812 450-25-25</strong><br>
-            (с 10 до 20 ежедневно)
+          <p>Адрес главного офиса и офлайн магазина: ул.Большая Конюшенная 19/8, Санкт-Петербург. Для заказов по телефону: 8 812 450-25-25 (с 10 до 20 ежедневно)
           </p>
           <a href="#">Форма обратной связи</a>
           <div class="feedback-form">
@@ -151,7 +144,7 @@
       </div>
     </main>
     <footer class="main-footer">
-      <div class="container">
+      <div class="container clearfix">
         <div class="footer-social">
           <a class="social-btn social-btn-twit" href="#">Твиттер</a>
           <a class="social-btn social-btn-inst" href="#">Инстаграм</a>

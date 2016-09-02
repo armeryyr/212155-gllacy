@@ -23,6 +23,21 @@ h2 {
   min-height: 115px;
 }
 
+
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 .main-navigation {
   float: left;
   height: 32px;
@@ -83,13 +98,6 @@ h2 {
  }
 
 
-.container {
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 .background {
   width: 900px;
   height: 584px;
@@ -109,11 +117,14 @@ h2 {
 }
 
 
+.banner {
+  margin-bottom: 21px;
+}
+
+
 .banner-1 {
   float: left;
   width: 400px;
-  height: 230px;
-  margin-bottom: 42px;
   margin-top: 41px;
   margin-left: 20px;
   padding-left: 20px;
@@ -134,8 +145,6 @@ h2 {
 .banner-2 {
   float: right;
   width: 400px;
-  height: 230px;
-  margin-bottom: 42px;
   margin-top: 41px;
   margin-right: 20px;
   padding-left: 20px;
@@ -168,58 +177,64 @@ h2 {
 }
 
 
+.seo {
+  float: left;
+  width: 345px;
+  margin-left: 76px;
+  margin-bottom: 29px;
+}
+
+
 .newsletters {
   float: left;
   width: 900px;
+  padding-left: 0;
 }
 
 
 .newsletter-1 {
   float: left;
-  width: 400px;
-  height: 230px;
+  width: 420px;
+  min-height: 223px;
   margin-bottom: 40px;
   margin-top: 41px;
-  margin-left: 20px;
   padding-left: 20px;
 }
 
 
 .newsletter-2 {
   float: right;
-  width: 400px;
-  height: 230px;
+  width: 420px;
+  min-height: 223px;
   margin-top: 41px;
-  
 }
 
 .newsletter-2 p{
   display: inline-block;
   vertical-align: top;
-  margin: 43px 33px 20px 28px;
 }
 
 
 .newsletter-form {
   margin-left: 27px;
   margin-right: 27px;
+  height: 42px;
 }
 
 
 .map {
-  float: left;
-  width: 900px;
-  height: 431px;
+  position: relative;
+  margin-top: 665px;
 }
 
 
-.adress{
-  position: relative;
+.adress {
+  position: absolute;
   width: 279px;
-  height: 270px;
+  height: 305px;
   left: 575px;
   background: white;
-  bottom: 368px;
+  bottom: 50px;
   padding-top: 33px;
   padding-left: 27px
 }
@@ -235,48 +250,60 @@ h2 {
 
 .footer-social {
   float: left;
-  width: 200px;
+  width: 186px;
   margin-top: 36px;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 20px;
 }
 
 
 .production {
   float: left;
-  width: 200px;
-  text-align: center;
+  width: 137px;
+  text-align: left;
   margin-top: 36px;
+  margin-right: 30px;
 }
 
 
 .docs {
   float: left;
-  width: 164px;
+  width: 166px;
   margin-top: 36px;
-  margin-right: 20px;
+  margin-right: 70px;
 }
 
 
 .footer-copyright {
   float: right;
-  width: 200px;
-  margin-top: 36px;
+  width: 260px;
+  margin-top: 10px;
+  margin-right: 20px;
 }
 
 
-.container a img {
+.container>a>img {
   float: left;
   width: 154px;
   margin-top: 9px;
   margin-left: 14px;
 }
 
-.breadcrumbs {
-  padding: -10px;
+
+.footer-copyright a img {
+  float: left;
+  width: 108px;
+  margin-right: 90px;
+  margin-bottom: 10px;
 }
 
 
-.breadcrumbs li {
+.breadcrumbs ul {
+  padding-left: 0;
+}
+
+
+.breadcrumbs li{
   display: inline;
   margin-right: 22px;
 }
@@ -304,18 +331,33 @@ h2 {
   margin-bottom: 29px;
 }
 
+.items {
+  float: left;
+  width: 900px;
+}
+
 .item {
   float: left;
   width: 200px;
-  margin-left: 0px;
-  margin-right: 20px;
+  margin-top: 20px;
 }
+
+
+.item:nth-child(4n+1) {
+  clear: left;
+}
+
 
 .paginator {
   float: right;
+  clear: left;
   margin-right: 20px;
-}
+ }
 
+
+.paginator a{
+  margin-right: 10px
+}
 
 form {
   height: 167px;
