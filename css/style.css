@@ -1,11 +1,14 @@
 html,
 body {
+  min-width: 900px;
   font-size: 16px;
   line-height: 1.1em;
   color: black;
   font-family: Roboto, Arial, sans-serif;
+  background: #849d8f;
   margin: 0;
   padding: 0;
+  color: white;
 }
 
 
@@ -25,9 +28,12 @@ h2 {
 
 
 .container {
-  width: 900px;
+  width: 860px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #9d9d90;
 }
 
 
@@ -41,61 +47,85 @@ h2 {
 .main-navigation {
   float: left;
   height: 32px;
-  width: 378px;
-  margin-left: 5px;
   margin-right: 80px;
   margin-top: 15px;
+}
+
+.main-navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 
 .main-navigation li {
   display: inline-block;
   vertical-align: top;
-  padding: 0px 10px 10px 0;
+  margin-left: 28px;
+  padding: 17px 0px 8px 0;
 }
 
 
-.user-block {
+.user-block a {
+  position: relative;
   float: left;
-  width: 32px;
-  height: 20px;
-  margin-top: 15px;
-  margin-right: 10px;
-  padding: 15px 16px 15px 45px;
+  margin-top: 22px;
+  padding: 10px 17px 12px 45px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  border-radius: 20px;
+  background: #a1b4a9 url("img/inpt_w.png") no-repeat;
 }
 
 
-.basket {
+.user-block a:hover {
+  background-color: #f8f7f4;
+  color: black;
+}
+
+
+
+
+.basket a {
   float: right;
-  width: 37px;
-  height: 20px;
-  margin-top: 15px;
-  margin-right: 20px;
-  padding: 15px 34px 15px 46px;
+  margin-top: 22px;
+  padding: 10px 17px 12px 45px;
+  text-decoration: none;
+  color: white;
+  background-color: #a1b4a9;
+  font-size: 14px;
+  border-radius: 20px;
 }
+
+
+.basket a:hover {
+  background-color: #f8f7f4;
+  color: black;
+  
+}
+
 
 .logo {
   float: left;
   width: 154px;
   margin-top: 9px;
-  margin-left: 14px;
+  margin-left: -5px;
 }
 
 .schedule {
   float: right;
-  width: 172px;
-  margin-right: 20px;
+  width: 170px;
   margin-top: 10px;
 }
 
 
 .telefon {
   float: right;
-  width: 130px;
+  width: 120px;
   clear: both;
-  margin-right: 20px;
-  margin-top: -10px;
- }
+  margin-top: -8px;
+}
 
 
 .background {
@@ -126,8 +156,8 @@ h2 {
   float: left;
   width: 400px;
   margin-top: 41px;
-  margin-left: 20px;
   padding-left: 20px;
+  background-color: #4f6f6f;
 }
 
 
@@ -146,8 +176,8 @@ h2 {
   float: right;
   width: 400px;
   margin-top: 41px;
-  margin-right: 20px;
   padding-left: 20px;
+  background-color: #4f6f6f;
 }
 
 
@@ -162,56 +192,61 @@ h2 {
 }
 
 
+.hits {
+  width: 880px;
+}
+
+
 .item {
   float: left;
   width: 200px;
-  min-height: 283px;
-  margin-left: 20px;
+  margin-right: 20px;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 
 .about {
   float: left;
-  width: 900px;
+  padding-left: 20px;
+  color: black;
 }
 
 
 .seo {
   float: left;
   width: 345px;
-  margin-left: 76px;
+  margin-left: 75px;
   margin-bottom: 29px;
+  background-color: #2e9090;
 }
 
 
 .newsletters {
   float: left;
-  width: 900px;
-  padding-left: 0;
+  color: black;
 }
 
 
 .newsletter-1 {
   float: left;
-  width: 420px;
+  width: 400px;
   min-height: 223px;
   margin-bottom: 40px;
   margin-top: 41px;
   padding-left: 20px;
+  background-color: #2e9090;
 }
 
 
 .newsletter-2 {
   float: right;
-  width: 420px;
+  width: 400px;
   min-height: 223px;
   margin-top: 41px;
-}
-
-.newsletter-2 p{
-  display: inline-block;
-  vertical-align: top;
+  padding-left: 20px;
+  margin-left: 20px;
+  background-color: #2e9090;
 }
 
 
@@ -222,9 +257,15 @@ h2 {
 }
 
 
+.newsletter a {
+  color: black;
+}
+
+
 .map {
   position: relative;
-  margin-top: 665px;
+  right: 20px;
+  
 }
 
 
@@ -240,45 +281,50 @@ h2 {
 }
 
 
+.adress a,
+.adress p {
+  color: black;
+}
+
+
 .main-footer {
   width: 900px;
   min-height: 100px;
   margin-left: auto;
   margin-right: auto;
+  font-size: 13px;
 }
 
 
 .footer-social {
   float: left;
-  width: 186px;
-  margin-top: 36px;
-  margin-right: 10px;
-  margin-left: 20px;
+  width: 200px;
+  margin-top: 38px;
+  margin-right: 20px;
+  text-align: left;
 }
 
 
 .production {
   float: left;
-  width: 137px;
-  text-align: left;
-  margin-top: 36px;
-  margin-right: 30px;
+  width: 200px;
+  text-align: center;
+  margin-top: 38px;
 }
 
 
 .docs {
   float: left;
-  width: 166px;
-  margin-top: 36px;
-  margin-right: 70px;
+  width: 220px;
+  margin-top: 38px;
 }
 
 
 .footer-copyright {
   float: right;
-  width: 260px;
-  margin-top: 10px;
-  margin-right: 20px;
+  width: 210px;
+  margin-top: 21px;
+  font-size: 12px;
 }
 
 
@@ -299,7 +345,8 @@ h2 {
 
 
 .breadcrumbs ul {
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -312,34 +359,35 @@ h2 {
 .sort {
   float: left;
   width: 192px;
+  margin-left: 20px;
+  background-color: #2e9090;
 }
 
 
 .rang {
   float: left;
   width: 220px;
+  background-color: #2e9090;
 }
 
 .fat {
   float: right;
-  width: 415px
+  width: 415px;
+  margin-top: -16px;
+  background-color: #2e9090;
 }
 
 .fillers {
   float: left;
   width: 702px;
   margin-bottom: 29px;
+  margin-left: 20px;
+  background-color: #2e9090;
 }
 
 .items {
   float: left;
   width: 900px;
-}
-
-.item {
-  float: left;
-  width: 200px;
-  margin-top: 20px;
 }
 
 
@@ -365,7 +413,9 @@ form {
 }
 
 
-
+a {
+  color: white;
+}
 
 
 
